@@ -1,0 +1,213 @@
+body{
+    background-color:#f7f7f7;
+
+}
+.container{
+    display: flex;
+    border-radius: 4px;
+    margin-top: 150px;
+    margin-left: 350px;
+    margin-right: 350px;
+    bottom: 0px;
+    box-shadow: 0px 5px 5px 0px rgba(235, 235, 235,1);
+    cursor: pointer;
+    height: 500px;
+    background-color:white;
+    font-family: 'roboto';
+    flex-direction: row;
+}
+
+input[type=text], input[type=password]{
+    padding: 8px;
+    border: none;
+}
+::placeholder{
+    color: #c4c4c4;
+    opacity: 0.8;
+}
+input:focus{
+    outline: none;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.btn{
+    padding: 10px;
+    margin-left: 30px;
+    color:white;
+    background: rgb(47, 116, 221);
+    border: 1px transparent solid;
+    border-radius: 4px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.check-box{
+    outline:rgb(168, 168, 168);;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.remember{
+    margin-left: 20px ;
+    color:rgb(168, 168, 168);
+}
+
+.register{
+    color: rgb(47, 134, 216);
+    position: absolute;
+    top:25%;
+    left: 0;
+}
+.register:hover{
+    text-decoration: underline;
+    position: absolute;
+}
+
+.forgot-pass{
+    color:  rgb(145, 145, 145);
+    position: absolute;
+    right: 50px;
+    top: 5px;
+}
+
+.text-content{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 55px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.bottom{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 50px;
+    padding-right: 40px;
+}
+
+.icon-text{
+    background: white ;
+	color: #eeedeb ;
+    border-right: 1px solid rgb(212, 212, 212);
+    padding: 8px;
+}
+
+
+.facebook-btn{
+    background-color: #3b5998;
+    color: white;
+    border: 1px transparent solid;
+    padding: 9px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.twitter-btn{
+    background-color: #00aced;
+    color: white;
+    border: 1px transparent solid;
+    padding: 9px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.google-btn{
+    background-color: #f44336;
+    color: white;
+    border: 1px transparent solid;
+    padding: 9px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.bottom-btn{
+    width: 196px;
+}
+
+.social-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.fab {
+    padding: 10px;
+    font-size: 2x;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #263c68;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #0695cb;
+    color: white;
+  }
+  .fa-google {  
+    background: #c53126;  
+    color: white;  
+  }  
+  .close {
+    position: relative;
+    left: 20px;
+    top: 16px;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(0, 0, 0);
+  }
+  .close:hover {
+    opacity: 0.5;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 2px;
+    content: ' ';
+    height: 12px;
+    width: 2px;
+    background-color: rgb(0, 0, 0);
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+.input-container{
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 4px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.submit-container{
+    position: relative;
+    margin-top: 25px;
+}
+.position-relative{
+    position: relative;
+}
+.icon-eye{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  
