@@ -9,7 +9,7 @@ body{
     margin-left: 350px;
     margin-right: 350px;
     bottom: 0px;
-    box-shadow: 0px 5px 5px 0px rgba(235, 235, 235,1);
+    box-shadow: 0px 5px 5px 0px rgb(141, 141, 141);
     cursor: pointer;
     height: 500px;
     background-color:white;
@@ -61,7 +61,7 @@ label{
 .register{
     color: rgb(47, 134, 216);
     position: absolute;
-    top:25%;
+    top:5px;
     left: 0;
 }
 .register:hover{
@@ -199,7 +199,36 @@ label{
 .submit-container{
     position: relative;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
+
+.right-line{
+    position: absolute;
+    width: 90px;
+    left: 0;
+    background: rgb(190, 190, 190);
+    margin-left: 90px;
+    opacity: 0.5;
+}
+
+.mid{
+    position: absolute;
+    right: 47%;
+    top:7px;
+    transform: translate(-50%, -50%);
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+}
+
+.left-line{
+    position: absolute;
+    width: 90px;
+    right: 0;
+    background: rgb(190, 190, 190);
+    margin-right: 90px;
+    opacity: 0.5;
+}
+
 .position-relative{
     position: relative;
 }
